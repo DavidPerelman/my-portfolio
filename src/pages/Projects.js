@@ -7,8 +7,15 @@ const Projects = () => {
     <div className='projects'>
       <h1>My Personal Projects</h1>
       <div className='projectsList'>
-        {ProjectList.map((project) => {
-          return <ProjectItem name={project.name} image={project.image} />;
+        {ProjectList.map((project, idx) => {
+          return (
+            <ProjectItem
+              key={idx}
+              id={idx}
+              name={project.name}
+              image={project.image}
+            />
+          );
         })}
       </div>
     </div>

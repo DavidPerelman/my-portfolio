@@ -1,11 +1,21 @@
-import Proj1 from '../assets/proj1.jpg';
-import Proj3 from '../assets/proj3.webp';
+import tipCalculatorAppWeb from '../assets/tip-calculator-app-1.png';
+import tipCalculatorAppMob from '../assets/tip-calculator-app-mobile.png';
+import randomQuoteMachineWeb from '../assets/random-quote-machine-1.png';
+import randomQuoteMachineMob from '../assets/random-quote-machine-mobile.jpeg';
 
 export const ProjectList = [
   {
-    name: 'Social Media Website',
-    image: Proj1,
-    skills: 'JavaScript, HTML, CSS',
+    name: 'Tip Calculator App',
+    image: [tipCalculatorAppWeb, tipCalculatorAppMob],
+    skills: 'React',
+    github: 'https://github.com/DavidPerelman/tip-calculator-app',
+    webLink: 'https://david-tip-calculator-app.netlify.app/',
   },
-  { name: 'Spotify Clone', image: Proj3, skills: 'JavaScript, HTML, CSS' },
+  {
+    name: 'Random Quote Machine',
+    image: [randomQuoteMachineWeb, randomQuoteMachineMob],
+    skills: 'React',
+    github: 'https://github.com/DavidPerelman/random-quote-machine',
+    webLink: 'https://david-random-quote-machine.netlify.app/',
+  },
 ];

@@ -1,6 +1,6 @@
 .project {
   width: 100%;
-  height: calc(100vh - 100px);
+  /* height: calc(100vh - 100px); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,4 +25,32 @@
 .project svg {
   font-size: 60px;
   color: #3e497a;
+}
+
+.mobile-img {
+  width: 300px !important;
+}
+
+.project-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 568px) {
+  .project img {
+    width: 360px;
+  }
+
+  .mobile-img {
+    width: 280px !important;
+  }
 }

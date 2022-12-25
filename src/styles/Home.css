@@ -22,6 +22,7 @@
   font-size: 80px;
   color: #e9d35b;
   height: 50px;
+  /* margin-top: 20px; */
 }
 
 .about .prompt {
@@ -54,6 +55,10 @@
 
 .list span {
   font-size: 20px;
+}
+
+.profile-img {
+  width: 300px;
 }
 
 @media only screen and (max-width: 600px) {

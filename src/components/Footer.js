@@ -13,13 +13,13 @@ const Footer = () => {
         <a href='mailto: dperelman3@gmail.com'>
           <Email />
         </a>
-        <a href={facebookLink} target='_blank'>
+        <a href={facebookLink} target='_blank' rel='noreferrer'>
           <Facebook />
         </a>
-        <a href={githubLink} target='_blank'>
+        <a href={githubLink} target='_blank' rel='noreferrer'>
           <GitHub />
         </a>
-        <a href={linkedInLink} target='_blank'>
+        <a href={linkedInLink} target='_blank' rel='noreferrer'>
           <LinkedIn />
         </a>
       </div>

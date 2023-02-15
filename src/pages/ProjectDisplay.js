@@ -19,6 +19,7 @@ const ProjectDisplay = () => {
             <img
               className={img.includes('mobile') ? 'mobile-img' : ''}
               src={img}
+              alt={'img'}
             />
           );
         })}
@@ -28,11 +29,11 @@ const ProjectDisplay = () => {
         <b>Skills:</b> {project.skills}
       </p>
       <div className='project-links'>
-        <a href={project.github} target='_blank'>
+        <a href={project.github} target='_blank' rel='noreferrer'>
           <GitHub />
         </a>
 
-        <a href={project.webLink} target='_blank'>
+        <a href={project.webLink} target='_blank' rel='noreferrer'>
           <Link />
         </a>
       </div>

@@ -1,10 +1,8 @@
 .projects {
   width: 100%;
   height: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
+
 .projects .projectTitle {
   text-align: center;
   color: #3e497a;
@@ -70,7 +68,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    align-self: center;
+    align-content: center;
   }
 
   .projectItem {

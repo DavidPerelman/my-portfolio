@@ -38,7 +38,7 @@ export const ProjectList = [
       myCoolStoreMob1,
       myCoolStoreMob2,
     ],
-    skills: 'Next.js, Firebase, Bootstrap, MongoDB,',
+    skills: 'Next.js, Firebase, Bootstrap, MongoDB',
     github: 'https://github.com/DavidPerelman/my-cool-store-next-js',
     webLink: 'https://my-cool-store-next-js.netlify.app/',
   },

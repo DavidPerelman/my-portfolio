@@ -7,25 +7,33 @@ const Home = () => {
     <div className='home'>
       <div className='about'>
         <img className='profile-img' src={profileImage} alt='profile-img' />
-        <h2>דוד פרלמן</h2>
-        <div className='propmt'>
+        <h2>David Perelman</h2>
+        <div className='about-prompt'>
           <h3>Full Stack Web Developer</h3>
         </div>
       </div>
       <div className='skills'>
-        <h1>Skills</h1>
+        <h2>Skills</h2>
         <ol className='list'>
-          <li className='item'>
-            <h2>Front-End</h2>
-            <span>ReactJS, HTML, CSS, Bootstrap</span>
-          </li>
-          <li className='item'>
-            <h2>Back-End</h2>
-            <span>NodeJS, ExpressJS, MongoDB</span>
-          </li>
-          <li className='item'>
-            <h2>Languages</h2>
+           <li className='item'>
+            <h4>Programming & Languages:</h4>
             <span>JavaScript</span>
+          </li>
+          <li className='item'>
+            <h4>Front-end technologies:</h4>
+            <span>ReactJS, HTML, CSS, NextJS</span>
+          </li>
+          <li className='item'>
+            <h4>Back-end technologies</h4>
+            <span>NodeJS, ExpressJS</span>
+          </li>
+          <li className='item'>
+            <h4>Databases</h4>
+            <span>MongoDB, Firebase</span>
+          </li>
+          <li className='item'>
+            <h4>Tools and frameworks</h4>
+            <span>NPM, Bootstrap, NextAuth.js, Stripe.js</span>
           </li>
         </ol>
       </div>

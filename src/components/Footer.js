@@ -13,9 +13,9 @@ const Footer = () => {
         <a href='mailto: dperelman3@gmail.com'>
           <Email />
         </a>
-        <a href={facebookLink} target='_blank' rel='noreferrer'>
+        {/* <a href={facebookLink} target='_blank' rel='noreferrer'>
           <Facebook />
-        </a>
+        </a> */}
         <a href={githubLink} target='_blank' rel='noreferrer'>
           <GitHub />
         </a>

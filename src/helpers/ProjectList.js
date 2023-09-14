@@ -40,6 +40,6 @@ export const ProjectList = [
     ],
     skills: 'Next.js, Firebase, Bootstrap, MongoDB',
     github: 'https://github.com/DavidPerelman/my-cool-store-next-js',
-    webLink: 'https://my-cool-store-next-js.netlify.app/',
+    webLink: 'https://my-cool-store-next-js.vercel.app/',
   },
 ];
